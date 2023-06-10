@@ -13,7 +13,7 @@ public class TUF_1_Main {  //Entry point into the Java program
 
 // class ek template hoti hai jisse object bnti hai. for example if you have the template form jiske andar name, address, and age likha hai then agar ek baar uss form ko bhar krke entity bna di toh uska object ho jaayega
 
-// you are required to make the object of the class in order to run it.
+// you are required to make the object of the class in order to run it(ie; class).
 
 /* ----------------------------public class main---------------------
 -----------In Java, every program must contain a class.
@@ -29,14 +29,14 @@ public class TUF_1_Main {  //Entry point into the Java program
 
 // "public" here is the access modifier mtlb ye jo class ka method hai isko kahi se v access kr skte hai.
 
-// "static" makes it possible for us to run these "functions" without creating any "object" of the class. And it is known to us the in order to run a class we are required to make object of that class.
+// "static" makes it possible for us to run these "functions" without creating any "object" of the class. And it is known to us that in order to run a class we are required to make object of that class.
 
-// agar if we want a function to be independent( or uska class ke object se koi mtlb na rhe ya fir kisi fulnction ko uske class ke object se dissociate kr du and at the same time class ke andar ke reside kr paaye) then mai usko "static" method bana dunga so agar mai kisi v function ko kisi class ke object se dissociate kr du, yaani uska class ke object se mtlb na rhe or vo ek independent function ki tarah istemal ho paaye and at the same time class ke andar reside kr paaye toh mai usko simply "static" method bna dunga
+// agar if we want a function to be independent( or uska class ke object se koi mtlb na rhe ya fir kisi fulnction ko uske class ke object se dissociate kr du and at the same time class ke andar bhi reside kr paaye) then mai usko "static" method bana dunga so agar mai kisi v function ko kisi class ke object se dissociate kr du, yaani uska class ke object se mtlb na rhe or vo ek independent function ki tarah istemal ho paaye and at the same time class ke andar reside kr paaye toh mai usko simply "static" method bna dunga
 
 // "public class Main" me Main hai jo class ka name hai and isko capital letter se likhe hai, but "void main" me jo function ka naam "main" hai usko small letter se likhe hai
 
   /* -----------------Naming convention----------------
-  ------for class we use Pascal convention
+  ------for CLASS we use Pascal convention
   ie; we have to write the name of the class like this - PascalConvention ie; first letter of every word will be in uppercase
 
   ------for functions we use camelCaseConvention

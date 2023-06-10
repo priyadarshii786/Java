@@ -4,7 +4,26 @@ import java.util.Scanner;
 public class Tuf_5_String_4 {
     public static void main(String[] args) {
 //        string methods operate on java strings. They can be used to find length of the string, convert to lowercase, etc.
-//        name.length() ------- returns length of string name.
+
+//        name.length()
+//        name.toLowerCase()
+//        name.toUpperCase()
+//        name.trim()
+//        name.substring(int start) or name.substring(2)
+//        name.replace('r','p')
+//        name.startsWith("Pr")
+//        name.endsWith("Pr")
+//        name.charAt(2)
+//        name.indexOf(s)
+//        modifiedName.indexOf("riy", 3)
+//        name.lastIndexOf("r")
+//        name.lastIndexOf("r",2)
+//        name.equals("priyadarshi")
+//        name.equalsIgnoreCase("priyadarshi")
+
+
+//
+//               name.length() ------- returns length of string name.
         String name = "Priyadarshi";
         int value = name.length();
         System.out.println(value);
@@ -13,7 +32,7 @@ public class Tuf_5_String_4 {
         String lstring = name.toLowerCase();
         System.out.println(lstring);
 
-//        name.tolowerCase() ------- returns a new string whch has all the uppercase characters from the string name.
+//        name.toUpperCase() ------- returns a new string whch has all the uppercase characters from the string name.
 
 //        name.trim() ------- returns a new string after removing all the leading and trailing spaces from the original string.
         String nonTrimmedString = "    priyadarshi   ";
@@ -31,7 +50,7 @@ public class Tuf_5_String_4 {
         System.out.println(name2.replace('r','p'));
         System.out.println(name2.replace("riy","ppp"));
 
-//        name.startsWith("Pr") ------- returns true if name starts with string "Pr". that is it returns boolean.
+//        name.startsWith("Pr") ------- returns true if name starts with string "Pr". that is, it returns boolean.
         System.out.println(name.startsWith("Pr"));
 
 //        name.endsWith("Pr")

@@ -6,6 +6,7 @@ public class Tuf_8_Question_3 {
 
         Scanner sc = new Scanner(System.in);
         String website = sc.next();
+//        String website = sc.nextInt();
 
         if(website.endsWith(".org"))
         {

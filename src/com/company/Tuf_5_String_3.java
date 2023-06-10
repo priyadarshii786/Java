@@ -45,7 +45,7 @@ system.out.format("The value of a is %d and value of b is %f", a, b);
 
 
 String str1 = new String("Keep coding");
-String str2 = new String("Keep coding"");
+String str2 = new String("Keep coding");
 System.out.println(str1 == str2);
 Output :
 False
