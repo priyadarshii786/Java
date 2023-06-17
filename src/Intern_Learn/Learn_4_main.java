@@ -6,7 +6,7 @@ import com.sun.tools.javac.Main;
 
 public class Learn_4_main {
 //    Insight: class ka koi v element bina uske object ke accessible nahi hota hai.
-    int num =10; //these are the example of the instance variable.
+    int num =10; //these two are the example of the instance variable.
     static String name = "Chikku"; //for this we want to demonstrate that ki static rhne pr object bnane ki jarurat nhi hoti hai. see there where we are printing this. Note that ki upar int jo tha vo static nahi tha, toh usko print krwane ke liye object bnana pda tha. And also ki static ka ye funda within the class hi hai ki object nahi banana pdta hai.
     public void display(){ //here making another method.
 //        public static void display(){  <-------- yaha pr agar hmlog display() method ko static rkhte then there would be no need of making object of the display() method "within the class" and we could have simply written mere display() instead of obj_1.display(); in the last. <------- Important concept
