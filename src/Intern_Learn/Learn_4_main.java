@@ -46,7 +46,7 @@ public class Learn_4_main {
         obj_1.display();
 
         System.out.println(obj_1.num);
-        System.out.println(name);//yaha pr object bnane ka koi need nhi tha as ye string static tha. And also ki static ka ye funda within the class hi hai.
+        System.out.println(name);//yaha pr object bnane ka koi need nhi tha as ye string static tha, but that's not the case in the above one. And also ki static ka ye funda within the class hi hai.
     }
 }
 
